@@ -19,7 +19,7 @@ using namespace std;
 }
 */
 
-int main()
+/*int main()
 {
    int n,i;
    int factorial;
@@ -30,15 +30,41 @@ int main()
         factorial = factorial * i;
    cout << endl << "Factorial de " << n << " -> " << factorial << endl;
 }
-
+*/
 
 //Problem 3. [5 puntos] Implemente un programa que solicite un n ́umero n e imprima todos
-//los n ́umeros perfectos menores a n.
+//los numeros perfectos menores a n.
 
 
+/*
+int main()
+{
+    int n=1,x=1,suma=0,maxnumero;
 
+    cout<<"ingresa el numero maximo"<<endl;
+    cin>>maxnumero;
 
+    while(n<=maxnumero)
+    {
+        while(x<=(n/2))
+        {
+            if(n%x==0)
+                suma=suma+x;
+                x=x+1;
+        }
+        if(n==suma)
+            cout<<n<<", Es perfecto"<<endl;
+        n=n+1; x=1;s=0;
+    }
+        return 0;
+}
+*/
 
 
 //Problem 5. [5 puntos] Los factores primos de 13195 son 5, 7, 13 y 29.
-//¿Cu ́al es el mayor factor primo de 600851475143?
+//¿Cual es el mayor factor primo de 600851475143?
+
+
+
+
+
